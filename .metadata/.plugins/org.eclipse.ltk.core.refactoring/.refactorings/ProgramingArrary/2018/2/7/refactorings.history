@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProgramingArrary/src/com/arrary/example/Num.java&apos; to &apos;CountOfNumOccur.java&apos;" description="Rename resource &apos;Num.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/arrary/example/Num.java" name="CountOfNumOccur.java" stamp="1518584086301" updateReferences="true"/>
+</session>

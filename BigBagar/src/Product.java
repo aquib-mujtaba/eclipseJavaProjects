@@ -1,0 +1,4 @@
+public class Product {
+	String name = "Product1";
+	int price = 1522;
+}

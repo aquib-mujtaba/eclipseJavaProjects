@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;05-02/src/com/intefaceExp&apos; to &apos;intefaceexp&apos;" description="Rename resource &apos;intefaceExp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/intefaceExp" name="intefaceexp" stamp="1517813042630" updateReferences="true"/>
+</session>

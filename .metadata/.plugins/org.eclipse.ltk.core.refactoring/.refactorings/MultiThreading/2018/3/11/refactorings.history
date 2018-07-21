@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MultiThreading/src/ThreadClassExp&apos; to &apos;threadclassexp&apos;" description="Rename resource &apos;ThreadClassExp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ThreadClassExp" name="threadclassexp" stamp="1520932370716" updateReferences="true"/>
+</session>

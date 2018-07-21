@@ -1,0 +1,20 @@
+package $23_03.bubble_sort;
+
+public class SelectionSort {
+	public static void main(String[] args) {
+
+	}
+
+	void selectionSort(int arr[]) {
+		for (int i = 0; i < arr.length; i++) {
+			int least = i;
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[j] < arr[least]) {
+					least = j;
+				}
+			}
+			int t = arr[least];
+			arr[least] = arr[i];
+		}
+	}
+}

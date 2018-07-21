@@ -1,0 +1,20 @@
+package com.programin.$20_02.Q49;
+
+import java.util.Scanner;
+
+public class ReverseWords {
+	public static void main(String[] args) {
+		System.out.println("Enter your Sentence");
+		Scanner sc = new Scanner(System.in);
+		String st = sc.nextLine();
+		char ch[] = st.toCharArray();
+		for (int i = ch.length - 1; i >= 0; i--) {
+			String rv = "";
+			while (i >= 0 && ch[i] != ' ') {
+				rv = rv + ch[i];
+				i--;
+			}
+		}
+		System.out.println(rv);
+	}
+}

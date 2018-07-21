@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;06-01/src/org/aquib/example&apos; to &apos;Genralization&apos;" description="Rename resource &apos;example&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/aquib/example" name="Genralization" stamp="1515396132056" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;06-01/src/org/aquib/Genralization&apos; to &apos;genralization&apos;" description="Rename resource &apos;Genralization&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/aquib/Genralization" name="genralization" stamp="1515397153479" updateReferences="true"/>
+</session>

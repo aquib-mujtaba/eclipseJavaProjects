@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Car.java&apos; to &apos;example&apos;" description="Move &apos;Car.java&apos; to &apos;example&apos;" destination="src/com/aquib/example" element1="src/Car.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1515138781036" updateReferences="true"/>
+</session>

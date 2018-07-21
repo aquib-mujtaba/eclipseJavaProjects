@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demonstration of Angular Routing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+<script src="angular.min.js"></script>
+<script src="angular-route.js"></script>
+<script>
+            var app = angular.module('OwnApp', ["ngRoute"]);
+          app.controller('OwnControl',function(){});
+            app.config(function($routeProvider)
+            {
+            $routeProvider
+                    .when("/",
+                    {
+                    templateUrl : "Main.html",
+                    })
+                    .when("/london",
+                    {
+                    templateUrl : "London.html",
+                            controller : "londonCtrl"
+                    })
+                    .when("/paris",
+                    {
+                    templateUrl : "Paris.html",
+                            controller : "parisCtrl"
+                    });
+            });
+            app.controller("londonCtrl", function ($scope)
+            {
+            $scope.msg = "London is an old city";
+            }
+            );
+            app.controller("parisCtrl", function ($scope)
+            {
+            $scope.msg = "Paris is a city of fashions";
+            }
+            );
+        </script>
+    </head>
+    <body  ng-app="OwnApp" ng-controller="OwnControl">
+        <div>
+            <p>
+                <a href="#/!">Main</a>
+            </p>
+            <a href="#!london">City 1</a>
+            <a href="#!paris">City 2</a>
+            <p>Click on the links.</p>
+        </div>
+        <h2>Description</h2>
+        <div ng-view></div>
+
+</body>
+</html>

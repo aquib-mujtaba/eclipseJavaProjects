@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionProj/src/com/aquib/treeset/comparablecons&apos; to &apos;comparaterTypCons&apos;" description="Rename resource &apos;comparablecons&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/aquib/treeset/comparablecons" name="comparaterTypCons" stamp="1519651915516" updateReferences="true"/>
+</session>

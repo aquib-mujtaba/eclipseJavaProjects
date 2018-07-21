@@ -1,0 +1,11 @@
+1517805210622	Move 'Pattern.java' to '$05_02'
+1517890138780	Move '$06_02.java' to '$06_02'
+1517890791056	Rename resource '$06_02.java'
+1518063844322	Rename resource '$08'
+1518066496739	Move 'Reverse.java' to 'arraryReverse'
+1518106747893	Convert local variable 'sc' to field
+1518106769735	Convert local variable 'sc' to field
+1518106776172	Convert local variable 'sc' to field
+1518106903476	Convert local variable 'sc' to field
+1518107815310	Convert local variable 'sc' to field
+1518150248004	Convert local variable 'sc' to field

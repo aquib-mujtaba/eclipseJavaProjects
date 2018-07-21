@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;InfProj&apos; to &apos;InterfaceProject&apos;" description="Rename resource &apos;InfProj&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/InfProj" name="InterfaceProject" stamp="1517988401168" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;InterfaceProject/src/com.icici.reportapp&apos;" deleteContents="false" description="Delete resource &apos;InterfaceProject/src/com.icici.reportapp&apos;" element1="/InterfaceProject/src/com.icici.reportapp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1518185869916"/>
+</session>

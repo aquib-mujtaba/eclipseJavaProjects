@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;b1&apos; in &apos;Customer.order()&apos; to &apos;b&apos;&#x0D;&#x0A;- Original project: &apos;Servent&apos;&#x0D;&#x0A;- Original element: &apos;Customer.order().b1&apos;&#x0D;&#x0A;- Renamed element: &apos;b1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;b1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Customer.java[Customer~order@b1!124!143!129!130!QBear;!0!false" name="b" references="true" stamp="1514531730494" version="1.0"/>
+</session>
