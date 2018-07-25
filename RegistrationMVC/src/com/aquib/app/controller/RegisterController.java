@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.aquib.app.Service.RegisterService;
+import com.aquib.app.dao.HotDateDao;
 import com.aquib.app.dto.RegisterDto;
 
 @WebServlet("/registerServt")
@@ -37,6 +38,9 @@ public class RegisterController extends HttpServlet {
 			req.setAttribute("fname", result);
 			rsd = req.getRequestDispatcher("sucsses.jsp");
 		}
+		HotDateDao dao = new HotDateDao();
+		dao.getHotDateDetails();
+		System.out.println("=======>");
 		rsd.forward(req, resp);
 	}
 }
