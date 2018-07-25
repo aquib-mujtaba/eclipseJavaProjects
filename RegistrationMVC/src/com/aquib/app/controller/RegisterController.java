@@ -40,7 +40,7 @@ public class RegisterController extends HttpServlet {
 		}
 		HotDateDao dao = new HotDateDao();
 		dao.getHotDateDetails();
-		System.out.println("=======>");
+		System.out.println("<<===End===>>");
 		rsd.forward(req, resp);
 	}
 }
